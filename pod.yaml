@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: argocd-nginx-pod
-  namespace: argocd1
+  namespace: argocd2
   labels:
     app.kubernetes.io/name: argocd-nginx
 spec:
